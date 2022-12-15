@@ -1,1 +1,46 @@
 /*Schrijf hier jouw CSS*/
+
+/* Opdracht 1 */
+
+.ul-container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Opdracht 2 */
+
+.ul-container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 120px;
+}
+
+.li-container2 {
+    flex-basis: 250px;
+}
+
+/* Opdracht 3 */
+
+.ul-container3 {
+    display: flex;
+    flex-direction: row;
+    height: 120px;
+    justify-content: space-between;
+}
+
+.li-container31 {
+   align-self: flex-start;
+}
+
+.li-container32 {
+    align-self: center;
+}
+
+.li-container33 {
+    align-self: flex-end;
+}
+
+/* Opdracht 4 */
+
