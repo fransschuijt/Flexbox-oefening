@@ -1,1 +1,90 @@
-/*Schrijf hier jouw css*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* kleuren #151e3f, #030027, #f2f3d9, #dc9e82, #c16e70 */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #f2f3d9;
+    margin: 0;
+}
+
+.navigation {
+    display: flex;
+    background-color: #030027;
+    color: white;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.nav-1 {
+    flex-basis: auto;
+    margin: 40px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.nav-2 {
+    display: flex;
+    width: 600px;
+    margin: 40px;
+
+}
+
+.nav-3 {
+    flex-basis: auto;
+    margin: 40px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    justify-content: space-evenly;
+
+}
+
+.header {
+    flex-basis: 150px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    padding: 40px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.article-business-data {
+    display: flex;
+    flex-basis: auto;
+    max-width: 280px;
+    margin: 30px;
+    padding: 15px;
+    background-color: #c16e70;
+    border-radius: 10px;
+    height: 350px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.text {
+    flex-basis: auto;
+    max-height: 320px;
+    text-align: center;
+    color: #151e3f;
+    align-self: flex-end;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
